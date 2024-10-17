@@ -11,10 +11,12 @@
     overflow: hidden; /* 清除浮动 */
 }
 
-.nav1 ul li {
+.nav1 .left-list li {
     float: left;
 }
-
+.nav1 .right-list li{
+    float: right;
+}
 .nav1 ul li a {
     color: aliceblue;
     margin: 20px;
@@ -32,7 +34,7 @@
 
 .slides {
     display: flex;
-    transition: transform 0.1s ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 
 .slides img {
