@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,26 @@
     <link rel="stylesheet" href="./css/rest.css">
     <link rel="stylesheet" href="./css/cs.css">
 </head>
+
 <body>
+    <script src="./js/img.js"></script>
     <div class="nav1">
         <ul>
             <li><a href="./index.html">首页</a></li>
             <li><a href="">比赛</a></li>
             <li><a href="">媒体</a></li>
-            <li></li>
-            <li></li>
+            <li><a href="">赞助</a></li>
         </ul>
     </div>
+    <div class="carousel">
+        <div class="slides">
+            <img src="./img/lun.png" alt="Image 1">
+            <img src="./img/image2.png" alt="Image 2">
+            <img src="./img/image3.png" alt="Image 3">
+        </div>
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,43 @@
+/* 重置浏览器默认样式 */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置全局字体和背景 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dedede40;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* 段落样式 */
+p {
+    margin-bottom: 1em;
+}
+
+/* 列表样式 */
+ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+ul li, ol li {
+    margin-bottom: 0.5em;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 图片样式 */
+img {
+    border: none;
+}
+
+i {
+    font-style: normal;
+}
